@@ -1,4 +1,5 @@
 # @file		min-vertix.mod
+# @author 	ciaran roche
 # @brief	Implementation of the min vertix problem
 
 
