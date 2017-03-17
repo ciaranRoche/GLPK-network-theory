@@ -18,8 +18,7 @@ s.t. covered {(i, j) in E}: x[i] + x[j] >= 1;
 solve; 
 
 printf " \n\n <<<<------------------------------->>>> \n ";
-printf "	 the minimum vertex cover is = %g \n",
-sum{i in V} x[i];
+printf "	 the minimum vertex cover is = %g \n", z;
 printf " \n 	The nodes covered: ";
 printf {i in V} if x[i]=1 then " %2g %2g %2g \n" else "", i;
 printf " \n <<<<------------------------------->>>> \n\n ";
